@@ -1,0 +1,112 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cutewallpaper.org/21/ui-wallpaper/Sphere-HD-Wallpaper-Background-Image-1920x1080-ID-.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.top{
+    position: relative;
+}
+.top h1{
+    position: absolute;
+    top: 14vh;
+    left: 5vh;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: blue;
+}
+.header-icon{
+    font-size: 60px;
+}
+.header-icon:hover{
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.box-header{
+    background-color: rgb(214, 214, 214);
+    display: felx;
+    flex-direction: row;
+    border-radius: 5px; 
+}
+.box-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-show{
+    height: 7vh;
+    margin-right: 2vw;
+}
+.box-tittle{
+    display: inline;
+}
+.box-detailes{
+    display: block;
+}
+.box-icon{
+    font-size: 40px;
+}
+.box-li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+.box-li:hover{
+    transform: scale(.9);
+    background-color: beige;
+}
+.box-user-info{
+    display: block;
+}
+.box-img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    height: 25vh;
+    background-image: url(https://cutewallpaper.org/21/ui-wallpaper/Sphere-HD-Wallpaper-Background-Image-1920x1080-ID-.jpg);
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+}
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    position: relative;
+}
+.text-footer{
+    position: relative;
+    left: 5vw;
+}
+.icon-footer{
+    font-size: 20px;
+    margin-right: 4px;
+}
+.icon-footer:hover{
+    color: white;
+}
